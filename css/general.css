@@ -17,10 +17,20 @@ body {
 /******************/
 /*GENERAL REUSABLE COMPONENTS*/
 /******************/
+.container{
+  max-width: 120rem; 
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
 .grid{
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+}
+
+.grid:not(:last-child){
+  margin-bottom: 9.6rem;
 }
 
 .grid-columns-2{
@@ -35,13 +45,6 @@ body {
 
 .grid-center-v{
   align-items: center;
-}
-
-.container{
-  /* background-color: red; */
-  max-width: 120rem; 
-  padding: 0 3.2rem;
-  margin: 0 auto;
 }
 
 .heading-primary,
@@ -162,7 +165,7 @@ body {
 }
 
 .margin-bottom-md{
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important;
 }
 
 strong{
