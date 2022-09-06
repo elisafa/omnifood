@@ -268,6 +268,18 @@
     height: 32rem;
     grid-row: 1;
   }
+  .testimonial-container{
+    padding: 4.8rem;
+  }
+  .heading-primary {
+    font-size: 4rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+  }
+  .hero-image-box{
+   margin-left: 10em;
+    padding: 0;
+  }
 }
 
 /* 
